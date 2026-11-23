@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about Youth & Society, an independent bilingual youth journal.">
+  <title>About — Youth & Society</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <style>
+    .about-page { max-width: 1000px; margin: 0 auto; padding: 75px 24px 100px; }
+    .page-heading { border-bottom: 1px solid var(--line); padding-bottom: 35px; margin-bottom: 45px; }
+    .page-heading h1 { font-family: var(--serif); font-size: clamp(3rem, 8vw, 6rem); line-height: 1; margin: 18px 0; color: var(--ink); }
+    .page-heading h1 span, .about-content h2 span { color: var(--olive); }
+    .page-lead { max-width: 680px; font-size: 1.15rem; line-height: 1.8; color: var(--muted); }
+    .about-content { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; margin: 55px 0; }
+    .about-content h2 { font-family: var(--serif); font-size: 2rem; line-height: 1.2; margin: 0 0 18px; }
+    .about-content p { line-height: 1.85; color: var(--muted); }
+    .about-quote { background: var(--butter); padding: 40px; margin: 65px 0; }
+    .about-quote p { font-family: var(--serif); font-size: clamp(1.6rem, 4vw, 2.5rem); line-height: 1.35; margin: 0; color: var(--ink); }
+    .about-bottom { border-top: 1px solid var(--line); padding-top: 30px; }
+    .about-bottom p { line-height: 1.8; color: var(--muted); max-width: 700px; }
+    @media(max-width: 700px) { .about-content { grid-template-columns: 1fr; gap: 25px; } .about-page { padding-top: 50px; } .about-quote { padding: 25px; } }
+  </style>
+</head>
+<body>
+
+  <div class="top-strip"><span>✳</span><span data-es="REVISTA JUVENIL INDEPENDIENTE · PERÚ / INTERNACIONAL" data-en="INDEPENDENT YOUTH JOURNAL · PERU / INTERNATIONAL">INDEPENDENT YOUTH JOURNAL · PERU / INTERNATIONAL</span><span>✳</span></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Youth <i>&</i> Society<span>.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="index.html#journal" data-es="Revista" data-en="Journal">Journal</a>
+      <a href="about.html" data-es="Nosotros" data-en="About">About</a>
+      <a href="guidelines.html" data-es="Colabora" data-en="Contribute">Contribute</a>
+      <a href="index.html#contact" data-es="Contacto" data-en="Contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switch" aria-label="Language">
+        <button type="button" data-lang="en" class="active" aria-pressed="true">EN</button><span>/</span><button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <a href="index.html#journal" data-es="Revista" data-en="Journal">Journal</a>
+    <a href="about.html" data-es="Nosotros" data-en="About">About</a>
+    <a href="guidelines.html" data-es="Colabora" data-en="Contribute">Contribute</a>
+    <a href="index.html#contact" data-es="Contacto" data-en="Contact">Contact</a>
+  </nav>
+
+  <main class="about-page">
+    <div class="page-heading">
+      <p class="eyebrow" data-es="SOBRE EL PROYECTO · 001" data-en="ABOUT THE PROJECT · 001">ABOUT THE PROJECT · 001</p>
+      <h1 data-es="Un espacio para pensar en voz alta" data-en="A place to think out loud">A place to<br>think out loud<span>.</span></h1>
+      <p class="page-lead" data-es="Youth & Society es una revista juvenil independiente y bilingüe que reúne ideas, investigaciones, ensayos y perspectivas sobre el mundo que compartimos." data-en="Youth & Society is an independent bilingual youth journal bringing together ideas, research, essays and perspectives on the world we share.">Youth & Society is an independent bilingual youth journal bringing together ideas, research, essays and perspectives on the world we share.</p>
+    </div>
+
+    <div class="about-content">
+      <section>
+        <p class="eyebrow" data-es="01 — NUESTRA IDEA" data-en="01 — OUR IDEA">01 — OUR IDEA</p>
+        <h2 data-es="La juventud también participa en las grandes conversaciones" data-en="Young people belong in the bigger conversations">Young people belong in the bigger conversations<span>.</span></h2>
+        <p data-es="Las discusiones sobre política, historia, cultura, sociedad y asuntos internacionales suelen desarrollarse sin dar suficiente espacio a quienes también vivirán sus consecuencias. Youth & Society nace de una convicción sencilla: la edad no determina la capacidad de observar, investigar, cuestionar o argumentar." data-en="Conversations about politics, history, culture, society and international affairs often leave too little room for those who will also live with their consequences. Youth & Society begins with a simple conviction: age does not determine someone's ability to observe, research, question or argue.">Conversations about politics, history, culture, society and international affairs often leave too little room for those who will also live with their consequences. Youth & Society begins with a simple conviction: age does not determine someone's ability to observe, research, question or argue.</p>
+      </section>
+
+      <section>
+        <p class="eyebrow" data-es="02 — QUÉ PUBLICAMOS" data-en="02 — WHAT WE PUBLISH">02 — WHAT WE PUBLISH</p>
+        <h2 data-es="Ideas con contenido, no opiniones por costumbre" data-en="Ideas with substance, not opinions for their own sake">Ideas with substance, not opinions for their own sake<span>.</span></h2>
+        <p data-es="Publicamos ensayos, artículos de opinión, análisis culturales, investigaciones y reflexiones sobre asuntos sociales e internacionales. Nos interesan las preguntas difíciles, los argumentos bien construidos y las perspectivas capaces de aportar algo nuevo a una conversación." data-en="We publish essays, opinion pieces, cultural analysis, research and reflections on social and international affairs. We are interested in difficult questions, carefully built arguments and perspectives that bring something new to a conversation.">We publish essays, opinion pieces, cultural analysis, research and reflections on social and international affairs. We are interested in difficult questions, carefully built arguments and perspectives that bring something new to a conversation.</p>
+      </section>
+    </div>
+
+    <div class="about-quote">
+      <p data-es="«No hace falta esperar a tener una voz adulta para empezar a pensar seriamente sobre el mundo»." data-en="“You do not have to wait until adulthood to start thinking seriously about the world.”">“You do not have to wait until adulthood to start thinking seriously about the world.”</p>
+    </div>
+
+    <div class="about-content">
+      <section>
+        <p class="eyebrow" data-es="03 — NUESTRA MIRADA" data-en="03 — OUR OUTLOOK">03 — OUR OUTLOOK</p>
+        <h2 data-es="Curiosidad, criterio y responsabilidad" data-en="Curiosity, judgment and responsibility">Curiosity, judgment and responsibility<span>.</span></h2>
+        <p data-es="Ser una publicación juvenil no significa renunciar al rigor. Valoramos la investigación, la claridad, la honestidad intelectual y el respeto por quienes sostienen perspectivas distintas. Una postura puede ser firme sin dejar de estar abierta a la evidencia." data-en="Being a youth publication does not mean giving up rigor. We value research, clarity, intellectual honesty and respect for those who hold different perspectives. An argument can be firm while remaining open to evidence.">Being a youth publication does not mean giving up rigor. We value research, clarity, intellectual honesty and respect for those who hold different perspectives. An argument can be firm while remaining open to evidence.</p>
+      </section>
+
+      <section>
+        <p class="eyebrow" data-es="04 — NUESTRO ALCANCE" data-en="04 — OUR SCOPE">04 — OUR SCOPE</p>
+        <h2 data-es="Desde Perú, hacia una conversación internacional" data-en="From Peru, toward an international conversation">From Peru, toward an international conversation<span>.</span></h2>
+        <p data-es="El proyecto comienza en Perú y aspira a conectar voces jóvenes de distintos lugares. Queremos que el intercambio de ideas atraviese fronteras, idiomas y experiencias, sin perder de vista el contexto desde el que cada persona escribe." data-en="The project begins in Peru and aims to connect young voices from different places. We want the exchange of ideas to cross borders, languages and experiences without losing sight of the context each writer comes from.">The project begins in Peru and aims to connect young voices from different places. We want the exchange of ideas to cross borders, languages and experiences without losing sight of the context each writer comes from.</p>
+      </section>
+    </div>
+
+    <div class="about-bottom">
+      <p class="eyebrow" data-es="¿QUIERES FORMAR PARTE?" data-en="WANT TO BE PART OF IT?">WANT TO BE PART OF IT?</p>
+      <h2 data-es="La conversación también puede empezar contigo." data-en="The conversation can start with you, too.">The conversation can start with you, too.</h2>
+      <p data-es="Si tienes una pregunta, una investigación o una perspectiva que merece desarrollarse, puedes conocer nuestras normas editoriales y enviarnos una propuesta." data-en="If you have a question, a piece of research or a perspective worth developing, you can read our editorial guidelines and send us a proposal.">If you have a question, a piece of research or a perspective worth developing, you can read our editorial guidelines and send us a proposal.</p>
+      <a class="button button-dark" href="guidelines.html" data-es="CÓMO COLABORAR ↗" data-en="HOW TO CONTRIBUTE ↗">HOW TO CONTRIBUTE ↗</a>
+    </div>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="wrap footer-top">
+      <div><a class="brand footer-brand" href="index.html">Youth <i>&</i> Society<span>.</span></a><p data-es="Mentes curiosas. Voces reflexivas." data-en="Curious minds. Thoughtful voices.">Curious minds. Thoughtful voices.</p></div>
+      <div><p class="eyebrow" data-es="ESCRÍBENOS" data-en="GET IN TOUCH">GET IN TOUCH</p><a href="mailto:youthandsocietyjournal@gmail.com">youthandsocietyjournal@gmail.com</a><a href="guidelines.html" data-es="Normas editoriales" data-en="Editorial guidelines">Editorial guidelines</a><a href="privacy.html" data-es="Privacidad" data-en="Privacy">Privacy</a></div>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 YOUTH & SOCIETY</span><span data-es="HECHO CON CURIOSIDAD ✳" data-en="MADE WITH CURIOSITY ✳">MADE WITH CURIOSITY ✳</span><a href="#top" data-es="VOLVER ARRIBA ↑" data-en="BACK TO TOP ↑">BACK TO TOP ↑</a></div>
+  </footer>
+</body>
+</html>
